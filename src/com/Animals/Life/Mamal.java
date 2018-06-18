@@ -1,5 +1,5 @@
 package com.Animals.Life;
 
-public class Mamal {
+public class Mamal extends Animal{
 
 }
