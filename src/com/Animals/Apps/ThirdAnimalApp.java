@@ -10,7 +10,7 @@ public class ThirdAnimalApp {
 	public static void main(String[] args) {
 
 		Animal animal = new Koala();
-		animal.live();
+		
 
 		Random koalaOrPanda = new Random();
 		if (koalaOrPanda.nextBoolean()) {
@@ -19,7 +19,7 @@ public class ThirdAnimalApp {
 		} else {
 			animal = new Panda();
 		}
-
+		animal.live();
 	}
 
 }
