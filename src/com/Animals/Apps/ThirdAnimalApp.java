@@ -20,6 +20,7 @@ public class ThirdAnimalApp {
 			animal = new Panda();
 		}
 		animal.live();
+		
 	}
 
 }
