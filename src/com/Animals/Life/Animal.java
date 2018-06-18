@@ -7,8 +7,16 @@ import com.Animals.Apps.FirstAnimalApp;
 public abstract class Animal { // abstract // Cannot instantiate the type Animal
 
 	private boolean isAlive;
+	private static int AnimalCount;
 
 	// public abstract void concereteAnimalBehaviour();
+	{
+		AnimalCount++;
+	}
+	
+	public static int getAnimalCount() {
+		return AnimalCount;
+	}
 
 	public void tryToTreatAnimal() {
 		Random outcomeGenerator = new Random();
