@@ -2,7 +2,9 @@ package com.Animals.Life;
 
 import java.util.Random;
 
-public class Animal {
+import com.Animals.Apps.FirstAnimalApp;
+
+public class Animal  {
 
 	private boolean isAlive;
 	
@@ -17,7 +19,7 @@ public class Animal {
 	}
 	
 	public void live() {
-		System.out.println("Alive!" + isAlive);
+		System.out.println("Alive ? : " + isAlive);
 	}
 	
 	public boolean getIsAlive() {
