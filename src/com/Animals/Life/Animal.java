@@ -1,9 +1,20 @@
 package com.Animals.Life;
 
+import java.util.Random;
+
 public class Animal {
 
 	private boolean isAlive;
 	
+	public void tryToTreatAnimal() {
+		Random outcomeGenerator = new Random();
+		boolean outcomeOfTreatmentPositive = outcomeGenerator.nextBoolean();
+		if(outcomeOfTreatmentPositive) {
+			isAlive = true;
+		}else {
+			isAlive = false;
+		}
+	}
 	
 	public void live() {
 		System.out.println("Alive!" + isAlive);
